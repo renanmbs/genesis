@@ -1,0 +1,380 @@
+/* Colors:
+#4eb9d7
+#65d010
+#595959 */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-bottom: solid black;
+    border-top: solid black;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #4eb9d7;
+    padding: .2rem 0;
+    color: white;
+    
+}
+
+.nav-content{
+    align-items: center;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+    margin-left: 1rem;
+    height: 2rem;
+    width: 3rem;
+}
+
+nav ul:hover a{
+    color: #595959;
+}
+
+nav ul:hover a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+nav li{
+    list-style: none;
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+
+header{
+    min-height: 49rem;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 49.5rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.95));
+}
+
+header * {
+    position: relative; 
+}
+
+header h1{
+    color: white;
+    font-weight: bold;
+    font-size: 5rem;
+    text-shadow: 4px 3px 1px #000000;
+    text-transform: uppercase;
+    text-align: center;
+    scroll-padding-top: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2.7rem auto; 
+}
+
+#Empresas p{
+    text-align: justify-all;
+    margin: 1rem;
+    font-size: larger;
+}
+
+#Empresas p::first-letter{
+    font-size: 1.5rem;
+    padding-left: 1rem; 
+    color: #4eb9d7;
+}
+
+#Vants2{
+    background-color: #4eb9d7;
+}
+
+#Vants2 h2{
+    padding: 1rem; 
+    color: white;
+    margin-bottom: 1.5rem !important; 
+}
+
+#explica h3{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#explica{
+    height: 18rem;
+    margin: auto 20rem;
+    text-align: center;
+    font-size: large;
+    background-color: #FFFFFFDF;
+    border: solid #595959;
+    box-shadow: 1px 1px 5px #595959;
+}
+
+#explica2{
+    margin: 1.5rem;
+}
+
+#explica2 p{
+    margin: 1.5rem;
+}
+
+#fotos h3{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+#imagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagens img{
+    height: 25rem;
+    width: 40rem;
+    outline: solid white;
+    filter: drop-shadow(1px 1px 5px white);
+    object-fit: cover;
+}
+
+#wrap{
+    position: relative;
+}
+
+.description {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25rem;
+    width: 40rem;
+    color: white;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+    outline: solid white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.description p{
+   margin: .8rem;
+   font-size: 1rem;
+}
+  
+#wrap:hover .description {
+    opacity: 1;
+}
+
+figcaption{
+    opacity: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    transition: opacity 200ms;
+    margin: 1.5rem auto;
+}
+
+figure:hover > figcaption{
+    opacity: 1;
+}
+
+#barcos{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: url("../img/pexels-magda-ehlers-636353.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#barcos h2{
+    font-size: 3rem;
+}
+
+#barco img{
+    max-height: 20rem;
+    filter: drop-shadow(1px 1px 5px black);
+}
+
+#barco img[src*="barco"]:hover{
+   animation: movimento 3s infinite;
+}
+
+#barco h3{
+    font-size: 1.7rem;
+    color: white;
+    margin: 2.7rem auto;
+}
+
+#des-bar{
+    background-color: white;
+    margin: 1.5rem 10rem;
+    color: black;
+    border-radius: 10px;
+    filter: drop-shadow(1px 1px 2px #65d010);
+    border: solid #65d010;
+}
+
+#des-bar p{
+    margin: 1.2rem;
+    border-radius: 10px;
+}
+
+.estilo{
+    max-height: 20rem;
+    margin-bottom: 2.7rem;
+    filter: drop-shadow(1px 1px 5px black);
+    border: solid #595959;
+}
+
+.estilo2{
+    max-height: 20rem;
+    filter: drop-shadow(1px 1px 5px black);
+    border: solid #595959;
+    margin-bottom: 2rem;
+}
+
+#container{
+    display: grid;
+    place-items: center;
+}
+
+#accordion{
+    width: 55%;
+    height: 37rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid white;
+    background-color: #5959599a;
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 5px white;
+}
+
+.item{
+    flex-basis: 2%;
+    height: 100%;
+    background-color: #4eb9d78d;
+    margin: 0.5rem;
+    display: grid;
+    border: solid #65d010;
+    place-items: center;
+    transition: 
+    flex-grow .2s linear,
+    background-color .2s ease;
+}
+
+.item p::first-letter{
+    font-size: 1.5rem;
+}
+
+.item p{
+    margin: .6rem 1rem;
+}
+
+.item:hover{
+    flex-grow: 1;
+}
+
+#Contato2{
+    background-color: #595959;
+    text-align: center;
+    color: white;
+}
+
+#Contato2 h2{
+    margin: 0;
+    padding: 1.5rem;
+
+}
+
+#Contato2 p,span{
+    margin-bottom: 1.5rem;
+}
+
+#Contato2 a{
+    text-decoration: none;
+    color: white;
+    margin: auto 1rem;
+}
+
+.material-symbols-outlined:hover{
+    color: #65d010;
+    transform: translateY(-5px);
+    transform: scale(0px);
+}
+
+.sim{
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+
+@keyframes movimento {
+    0% {
+     transform: translateX(-50px);
+    }
+    10% {
+      transform: translateX(-100px);
+    }
+    20%{
+        transform: translateX(-150px);
+    }
+    30%{
+        transform: translateX(-200px);
+    }
+    40%{
+        transform: translateX(-250px);
+    }
+    50%{
+        transform: translateX(-300px);
+    }
+    60%{
+        transform: translateX(-350px);
+    }
+    70%{
+        transform: translateX(-400px);
+    }
+    80%{
+        transform: translateX(-450px);
+    }
+    90%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform: translateX(-550px);
+    }
+  }
