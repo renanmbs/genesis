@@ -402,7 +402,7 @@ figure:hover > figcaption{
 
     #explica{
         height: 30rem;
-        margin: auto 2rem;
+        margin: auto 1rem;
         box-shadow: 1px 1px 5px #595959;
     }
 
@@ -414,10 +414,8 @@ figure:hover > figcaption{
 
     .estilo{
         max-height: 20rem;
-        width: 22rem;
-        margin-bottom: 2.7rem;
-        filter: drop-shadow(1px 1px 5px black);
-        border: solid #595959;
+        width: 24rem;
+        filter: drop-shadow(1px 1px 3px black);
     }
 
     #des-bar{
@@ -425,7 +423,7 @@ figure:hover > figcaption{
     }
 
     #accordion{
-        width: 70%;
+        width: 30%;
         height: 45rem;
     }
     
@@ -439,6 +437,14 @@ figure:hover > figcaption{
 
     #barco img{
         height: 10rem;
+    }
+
+    .item{
+        height: 70%;
+    }
+
+    #explica2 p{
+        margin: 1rem;
     }
 
   }
