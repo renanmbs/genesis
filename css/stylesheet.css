@@ -423,8 +423,8 @@ figure:hover > figcaption{
     }
 
     .description p{
-        margin: .6rem;
-        font-size: 0.8rem;
+        margin: .4rem;
+        font-size: 0.7rem;
      }
 
     .estilo{
@@ -439,7 +439,7 @@ figure:hover > figcaption{
 
     #accordion{
         width: 95%;
-        height: 52rem;
+        height: 50rem;
         box-shadow: 1px 1px 2px white;
     }
     
