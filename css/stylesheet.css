@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 nav{
@@ -25,7 +26,6 @@ nav ul{
     background-color: #4eb9d7;
     padding: .2rem 0;
     color: white;
-    
 }
 
 .nav-content{
@@ -173,6 +173,7 @@ h2{
 
 #wrap{
     position: relative;
+    cursor: pointer;
 }
 
 .description {
@@ -231,6 +232,7 @@ figure:hover > figcaption{
 
 #barco img[src*="barco"]:hover{
    animation: movimento 3s infinite;
+   cursor: pointer;
 }
 
 #barco h3{
@@ -377,4 +379,62 @@ figure:hover > figcaption{
     100%{
         transform: translateX(-550px);
     }
+  }
+
+  @media screen and (max-width:700px){
+    nav img{
+        margin-left: .2rem;
+    }
+
+    nav ul{
+        padding: .1rem 0;
+    }
+
+    nav a{
+        font-size: small;
+    }
+
+    header h1{
+        color: white;
+        font-size: 2.5rem;
+        text-shadow: 3px 2px 1px #000000;
+    }
+
+    #explica{
+        height: 22rem;
+        margin: auto 5rem;
+        box-shadow: 1px 1px 5px #595959;
+    }
+
+    #imagens img{
+        height: 20rem;
+        width: 25rem;
+        filter: drop-shadow(1px 1px 3px white);
+    }
+
+    .estilo{
+        max-height: 20rem;
+        max-width: 25rem;
+        margin-bottom: 2.7rem;
+        filter: drop-shadow(1px 1px 5px black);
+        border: solid #595959;
+    }
+
+    #des-bar{
+        margin: 1.5rem 3rem;
+    }
+
+    #accordion{
+        width: 70%;
+        height: 45rem;
+    }
+    
+    .item{
+        flex-basis: 2%;
+        height: 100%;
+        background-color: #4eb9d7c9;
+        margin: 0.5rem;
+        cursor:pointer
+    }
+
   }
