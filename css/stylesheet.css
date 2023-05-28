@@ -412,6 +412,12 @@ figure:hover > figcaption{
         filter: drop-shadow(1px 1px 3px white);
     }
 
+    .description {
+        height: 20rem;
+        width: 22rem;
+        font-size: 0.8rem;
+    }
+
     .estilo{
         max-height: 20rem;
         width: 23rem;
@@ -423,15 +429,19 @@ figure:hover > figcaption{
     }
 
     #accordion{
-        width: 90%;
+        width: 100%;
         height: 45rem;
     }
     
     .item{
-        flex-basis: 2%;
-        height: 70%;
+        flex-basis: 0%;
+        height: 100%;
         background-color: #4eb9d7c9;
         cursor:pointer
+    }
+
+    .item:hover{
+        flex-grow: 0;
     }
 
     #barco img{
