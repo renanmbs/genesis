@@ -412,13 +412,14 @@ figure:hover > figcaption{
     }
 
     #imagens img{
-        height: 20rem;
+        object-fit: scale-down;
+        height: 21rem;
         width: 22rem;
         filter: drop-shadow(1px 1px 3px white);
     }
 
     .description {
-        height: 20rem;
+        height: 21rem;
         width: 22rem;
     }
 
@@ -439,7 +440,7 @@ figure:hover > figcaption{
 
     #accordion{
         width: 95%;
-        height: 50rem;
+        height: 51rem;
         box-shadow: 1px 1px 2px white;
     }
     
@@ -469,7 +470,7 @@ figure:hover > figcaption{
     }
 
     .estilo2{
-        height: 15rem;
+        height: 15rem !important;
         filter: drop-shadow(0px 0px 3px black);
     }
 
