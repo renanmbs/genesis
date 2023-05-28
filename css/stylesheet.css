@@ -401,20 +401,20 @@ figure:hover > figcaption{
     }
 
     #explica{
-        height: 22rem;
-        margin: auto 5rem;
+        height: 30rem;
+        margin: auto 2rem;
         box-shadow: 1px 1px 5px #595959;
     }
 
     #imagens img{
         height: 20rem;
-        width: 25rem;
+        width: 22rem;
         filter: drop-shadow(1px 1px 3px white);
     }
 
     .estilo{
         max-height: 20rem;
-        max-width: 25rem;
+        width: 22rem;
         margin-bottom: 2.7rem;
         filter: drop-shadow(1px 1px 5px black);
         border: solid #595959;
@@ -435,6 +435,10 @@ figure:hover > figcaption{
         background-color: #4eb9d7c9;
         margin: 0.5rem;
         cursor:pointer
+    }
+
+    #barco img{
+        height: 10rem;
     }
 
   }
