@@ -414,24 +414,23 @@ figure:hover > figcaption{
 
     .estilo{
         max-height: 20rem;
-        width: 24rem;
+        width: 23rem;
         filter: drop-shadow(1px 1px 3px black);
     }
 
     #des-bar{
-        margin: 1.5rem 3rem;
+        margin: 1.5rem 1rem;
     }
 
     #accordion{
-        width: 30%;
+        width: 90%;
         height: 45rem;
     }
     
     .item{
         flex-basis: 2%;
-        height: 100%;
+        height: 70%;
         background-color: #4eb9d7c9;
-        margin: 0.5rem;
         cursor:pointer
     }
 
@@ -444,7 +443,12 @@ figure:hover > figcaption{
     }
 
     #explica2 p{
-        margin: 1rem;
+        margin: .8rem;
+    }
+
+    .estilo2{
+        height: 20rem;
+        filter: drop-shadow(1px 1px 3px black);
     }
 
   }
